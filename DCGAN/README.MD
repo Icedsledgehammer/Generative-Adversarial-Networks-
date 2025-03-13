@@ -74,9 +74,9 @@ This repository contains an implementation of Deep Convolutional Generative Adve
 
 ## Results
 
-- The generator improves over epochs, producing realistic images.
+- The generator improves over epochs, however shows degradation after the 5th epoch as it has been trained for 10 epochs in this file.
 - The discriminator loss should ideally stabilize while the generator keeps improving.
-- The final output includes high-quality synthetic faces similar to the CelebA dataset.
+- The final output includes decently generated synthetic faces similar to the CelebA dataset.
 
 ## Dependencies
 Ensure the following Python packages are installed:
@@ -89,6 +89,4 @@ pip install torch torchvision matplotlib tqdm
 - For training stability, ensure batch normalization is applied in both networks.
 
 ---
-
-This completes the README documentation. You can modify it as per your needs.
 
